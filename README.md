@@ -37,7 +37,7 @@ To set up the project locally, follow these steps:
 1. **Clone the repository**:
     ```bash
     git clone https://github.com/haf0g/Berre.AI.git
-    cd berrechid-chatbot
+    cd Berre.AI
     ```
 
 2. **Set up a virtual environment**:
