@@ -2,6 +2,7 @@
 
 Welcome to the **Berrechid City AI Chatbot Assistant**! This project is designed to assist passengers and visitors in Berrechid city by providing information about locations, addresses, and other relevant details using a Retrieval-Augmented Generation (RAG) system powered by AI.
 
+ 
 ## Table of Contents
 - [Overview](#overview)
 - [Features](#features)
