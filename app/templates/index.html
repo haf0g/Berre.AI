@@ -1,0 +1,92 @@
+<!--<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Berrechid City Chatbot</title>
+    <link rel="stylesheet" href="/static/css/styles.css">
+</head>
+<body>
+    <div class="chat-container">
+        <h1>Welcome to Berrechid City Chatbot</h1>
+        <div id="chat-box">
+            <div id="messages"></div>
+        </div>
+        <div class="input-container">
+            <input type="text" id="user-input" placeholder="Type your question here...">
+            <button id="send-btn">Send</button>
+        </div>
+    </div>
+    <script src="/static/js/script.js"></script>
+</body>
+</html>
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Berrechid City Chatbot - AI-powered city information assistant">
+    <title>Berrechid City Chatbot</title>
+    <link rel="stylesheet" href="../static/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css">
+    <link rel="icon" href="https://emojicdn.elk.sh/%F0%9F%92%AC" type="image/png">
+
+</head>
+<body>
+    <div class="chat-container">
+        <header class="chat-header">
+            <h1>Welcome to Berre.AI : Berrechid City Chatbot</h1>
+            <div class="connection-status" id="connection-status">Connected</div>
+        </header>
+
+        <main class="chat-main">
+            <div id="chat-box">
+                <div id="messages">
+                    <!-- Welcome message -->
+                    <div class="message bot">
+                        <div class="message-content">
+                            <p>Hello! I'm your Berrechid City assistant. How can I help you today?</p>
+                        </div>
+                        <div class="message-timestamp"></div>
+                    </div>
+                </div>
+                <div id="typing-indicator" class="typing-indicator hidden">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </main>
+
+        <footer class="chat-footer">
+            <form id="chat-form" class="input-container">
+                <textarea 
+                    id="user-input" 
+                    placeholder="Type your question here... (Shift + Enter for new line)"
+                    rows="1"
+                    aria-label="Chat input"
+                ></textarea>
+                <button type="submit" id="send-btn" aria-label="Send message">
+                    <span class="button-text">Send</span>
+                    <div class="button-loader hidden"></div>
+                </button>
+            </form>
+            <div class="error-container" id="error-container"></div>
+        </footer>
+    </div>
+
+    <!-- Templates for dynamic content -->
+    <template id="message-template">
+        <div class="message">
+            <div class="message-content"></div>
+            <div class="message-timestamp"></div>
+        </div>
+    </template>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/4.0.2/marked.min.js"></script>
+    <script src="../static/js/script.js"></script>
+</body>
+</html>

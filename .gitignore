@@ -1,0 +1,8 @@
+temp.html
+temp2.html
+logs/*
+app/normalizer.py
+app/norm_knowledge_base.json
+app/appv1.py
+app/templates/indexv2.html
+.env

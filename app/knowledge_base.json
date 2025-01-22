@@ -1,0 +1,785 @@
+{
+    "supermarkets": [
+      {
+        "smiya": "Carrefour Market - Berrechid",
+        "adresse": "Chari3 Mohamed 5, Berrechid, Maroc",
+        "map": "https://www.google.com/maps?q=33.2695,-7.5850",
+        "amenities": ["Produits alimentaires", "Électronique", "Produits ménagers", "Vêtements", "Produits cosmétiques", "Bazar", "Jouets", "Pharmacie", "Librairie", "Produits bio"],
+        "hours": "8h00 - 22h00",
+        "parking": "Disponible",
+        "payment_methods": ["Carte bancaire", "Espèces"]
+      },
+      {
+        "smiya": "BIM - Lotissement Imi Nwaday H",
+        "adresse": "Lotissement Imi Nwaday H, Lot 120-121, Berrechid",
+        "map": "https://www.google.com/maps?q=33.2695,-7.5870",
+        "amenities": ["Produits alimentaires", "Produits ménagers"],
+        "hours": "8h00 - 21h00",
+        "parking": "Non disponible",
+        "payment_methods": ["Carte bancaire", "Espèces"]
+      },
+      {
+        "smiya": "BIM - Immeuble Sis à 211 Lot Al Qods",
+        "adresse": "211 Lot Al Qods, Berrechid",
+        "map": "https://www.google.com/maps?q=33.2700,-7.5850",
+        "amenities": ["Produits alimentaires", "Boissons"],
+        "hours": "8h00 - 21h00",
+        "parking": "Disponible",
+        "payment_methods": ["Carte bancaire", "Espèces"]
+      },
+      {
+        "smiya": "BIM - Résidence Rim",
+        "adresse": "Résidence Rim 124, Boulevard Bir Anzaran, Berrechid",
+        "map": "https://www.google.com/maps?q=33.2710,-7.5890",
+        "amenities": ["Produits alimentaires", "Hygiène"],
+        "hours": "8h00 - 22h00",
+        "parking": "Disponible",
+        "payment_methods": ["Carte bancaire", "Espèces"]
+      },
+      {
+        "smiya": "BIM - Rue Al Wahda",
+        "adresse": "Chari3 Al Wahda, Berrechid",
+        "map": "https://www.google.com/maps?q=33.2720,-7.5900",
+        "amenities": ["Alimentation", "Snacks"],
+        "hours": "8h00 - 21h00",
+        "parking": "Non disponible",
+        "payment_methods": ["Carte bancaire", "Espèces"]
+      },
+      {
+        "smiya": "BIM - Avenue Mohammed V",
+        "adresse": "Avenue Mohamed 5, Berrechid",
+        "map": "https://www.google.com/maps?q=33.2730,-7.5910",
+        "amenities": ["Produits frais", "Boissons"],
+        "hours": "8h00 - 21h00",
+        "parking": "Disponible",
+        "payment_methods": ["Carte bancaire", "Espèces"]
+      },
+      {
+        "smiya": "Marjane Market - Berrechid",
+        "adresse": "Chari3 Mohamed 5, Berrechid, Maroc",
+        "map": "https://www.google.com/maps?q=33.2700,-7.5880",
+        "amenities": ["Produits alimentaires", "Électronique", "Produits ménagers", "Vêtements", "Produits cosmétiques", "Bazar", "Jouets", "Pharmacie", "Librairie", "Produits bio"],
+        "hours": "8h00 - 22h00",
+        "parking": "Disponible",
+        "payment_methods": ["Carte bancaire", "Espèces"]
+      }
+    ],
+    
+    "hotels": [
+      {
+        "smiya": "Equi Palace & SPA Near Aeroport",
+        "adresse": "Tariq Casablanca, Berrechid", 
+        "map": "https://www.google.com/maps?q=33.2695,-7.5870",
+        "type": "Hôtel",
+        "amenities": ["Piscine extérieure", "Salle de sport", "Parking privé gratuit", "Jardin"]
+      },
+      {
+        "smiya": "Hôtel Hariz Son",
+        "adresse": "Avenue Hassan II, Berrechid",
+        "map": "https://www.google.com/maps?q=33.2700,-7.5850",
+        "type": "Hôtel 4 étoiles",
+        "amenities": ["Jardin", "Restaurant", "Parking privé gratuit", "Terrasse", "Bar"]
+      },
+      {
+        "smiya": "Nabil Location",
+        "adresse": "Hay El Menzah, Berrechid",
+        "map": "https://www.google.com/maps?q=33.2710,-7.5860",
+        "type": "Villa",
+        "amenities": ["Piscine privée", "Terrasse", "Balcon", "Vue sur le jardin"]
+      },
+      {
+        "smiya": "Appartement Sidi Rahal",
+        "adresse": "Sidi Rahal, Berrechid",
+        "map": "https://www.google.com/maps?q=33.2720,-7.5870",
+        "type": "Appartement",
+        "amenities": ["Plage privée", "Climatisation"]
+      },
+      {
+        "smiya": "Résidence Ohod",
+        "adresse": "Hay Al Fath, Berrechid",
+        "map": "https://www.google.com/maps?q=33.2730,-7.5880",
+        "type": "Résidence",
+        "amenities": ["Parking privé", "Wi-Fi gratuit", "Vue sur le jardin"]
+      },
+      {
+        "smiya": "Dar Armonia Ferme à Berrechid",
+        "adresse": "Tariq Casablanca, Berrechid", 
+        "map": "https://www.google.com/maps?q=33.2740,-7.5890",
+        "type": "Ferme",
+        "amenities": ["Jardin", "Piscine extérieure", "Vue sur la campagne"]
+      },
+      {
+        "smiya": "Appartement à Louer à Berrechid",
+        "adresse": "Hay Zitoune, Berrechid",
+        "map": "https://www.google.com/maps?q=33.2750,-7.5900",
+        "type": "Appartement",
+        "amenities": ["Climatisation", "Balcon", "Wi-Fi gratuit"]
+      },
+      {
+        "smiya": "Appartement Marrakech",
+        "adresse": "Hay Mohammadi, Berrechid",
+        "map": "https://www.google.com/maps?q=33.2760,-7.5910",
+        "type": "Appartement",
+        "amenities": ["Wi-Fi gratuit", "Parking privé"]
+      }
+    ],
+  "banques": [
+      {
+        "smiya": "Banque Populaire (ag.Berrechid Al Yousr)",
+        "adresse": "5 Lot Al Yousr",
+        "telephone": "0522535690",
+        "horaire": "8h30 - 18h"
+      },
+      {
+        "smiya": "Banque Populaire (ag.Berrechid Hassan II)",
+        "adresse": "chari3 Hassan II, lotiss. Halima, Berrechid, Maroc",
+        "telephone": "0522327671",
+        "horaire": "8h30 - 18h"
+      },
+      {
+        "smiya": "Banque Populaire",
+        "adresse": "Chari3 Mohammed V",
+        "telephone": "0522337799",
+        "horaire": "8h30 - 18h"
+      },{
+        "smiya": "Banque Populaire",
+        "adresse": "tajzi2at Ez-Zahra lot. 384",
+        "telephone": "0522535750",
+        "horaire": "8h30 - 18h"
+      },
+      {
+        "smiya": "Attijariwafa Bank",
+        "adresse": "Chari3 Hassan II",
+        "telephone": "0529 01 05 44",
+        "horaire": "8h30 - 18h"
+      }, {
+        "smiya": "Attijariwafa Bank",
+        "adresse": "tri9 Mediouna tajzi2at Sidi Amer n:3",
+        "telephone": "0522535510",
+        "horaire": "8h30 - 18h"
+      },{
+        "smiya": "Attijariwafa Bank",
+        "adresse": "Chari3 Mohammed 5",
+        "telephone": "0522 33 72 49",
+        "horaire": "8h30 - 18h"
+      },{
+        "smiya": "Attijariwafa Bank",
+        "adresse": "61 chari3 moulay ismail",
+        "telephone": "0522535000",
+        "horaire": "8h30 - 18h"
+      },{
+        "smiya": "Attijariwafa Bank",
+        "adresse": "Hay zahra",
+        "telephone": "0529 02 33 44",
+        "horaire": "8h30 - 18h"
+      },
+      {
+        "smiya": "BMCE Bank",
+        "adresse": "chari3 brahim Roudani tajzi2at Ezzahra lot 135",
+        "telephone": "0522535720",
+        "horaire": "8h30 - 18h"
+      }, {
+        "smiya": "BMCE Bank",
+        "adresse": "128 Chari3 Biranzarane",
+        "telephone": "0522535642",
+        "horaire": "8h30 - 18h"
+      },{
+        "smiya": "BMCE Bank",
+        "adresse": "Chari3 hassan 2",
+        "telephone": "05 22 53 50 70",
+        "horaire": "8h30 - 18h"
+      },{
+        "smiya": "BMCE Bank",
+        "adresse": "Chari3 Mohammed 5",
+        "telephone": "05 22 337043",
+        "horaire": "8h30 - 18h"
+      },
+     {
+        "smiya": "CIH Bank",
+        "adresse": "chari3 Al Fida ta9atou3 m3a chari3 Jaber Ibnou Hayane hay Yasmina",
+        "telephone": "0522535430",
+        "horaire": "8h30 - 18h"
+      },{
+        "smiya": "CIH Bank",
+        "adresse": "49 chari3 Mohammed V lotiss. Essaf",
+        "telephone": "0522535060 ",
+        "horaire": "8h30 - 18h"
+      },
+      {
+        "smiya": "Crédit Agricole du Maroc",
+        "adresse": "Chari3 mohammed 5",
+        "telephone": "0522337013",
+        "horaire": "8h30 - 18h"
+      },  {
+        "smiya": "Crédit Agricole du Maroc",
+        "adresse": "Chari3 Moulay ElHassan",
+        "telephone": "0522533647",
+        "horaire": "8h30 - 18h"
+      },
+      {
+        "smiya": "Société Générale Maroc",
+        "adresse": "ta9atou3 chari3 Mohamed V m3a chari3 Hassan II - tajzi2at Essafi",
+        "telephone": "05223-44556",
+        "horaire": "8h30 - 18h"
+      },   {
+        "smiya": "Société Générale Maroc",
+        "adresse": "328 chari Hassan 2",
+        "telephone": "0522535730",
+        "horaire": "8h30 - 18h"
+      }
+    ],
+    "Mosquée": [
+          {
+            "smiya": "Jama3 Al Qods",
+            "adresse": "Chari3 Abdellah Ganoune",
+            "Localisaion": "https://maps.app.goo.gl/trMf3rEXcBBnpoXc9"
+          },
+          {
+            "smiya": "Jama3 Al Fath",
+            "adresse": "Zan9at Jérusalem",
+            "Localisaion": "https://maps.app.goo.gl/RkCnyHMumyt95PNn8"
+          },
+          {
+            "smiya": "Jama3 Anas Ibn Malik",
+            "adresse": "Zan9at Cheikh Maalainin",
+            "Localisaion": "https://maps.app.goo.gl/jmqRtBAmrfPEJzki6"
+          },
+          {
+            "smiya": "Jama3 AlHay Hassani",
+            "adresse": "Chari3 Rahal El Meskini",
+            "Localisaion": "https://maps.app.goo.gl/MjXToEfYUMiVzEeH6"
+          },
+          {
+            "smiya": "Jama3 Aarafat",
+            "adresse": "Chari3 Rayhana",
+            "Localisaion": "https://maps.app.goo.gl/FsM9syPoh2Jkg89w5"
+          },
+          {
+            "smiya": "Jama3 Ohod",
+            "adresse": "Chari3 Algérie",
+            "Localisaion": "https://maps.app.goo.gl/bfkRgfM3KzK4UmdW9"
+          },
+          {
+            "smiya": "Jama3 Riad",
+            "adresse": "Chari3 Al-Aqaba, 7da café la Tour Eiffel",
+            "Localisaion": "https://maps.app.goo.gl/vCn7qW5T7wWpbe727"
+          },
+          {
+            "smiya": "Jama3 Yassmina",
+            "adresse": "Zan9at Ibn Khafadja, Chari3 Abdellah Ganoune",
+            "Localisaion": "https://maps.app.goo.gl/VoppHGxAqVCcRKMh7"
+          },
+          {
+            "smiya": "Jama3 Al-Azhar",
+            "adresse": "Chari3 Nice",
+            "Localisaion": "https://maps.app.goo.gl/BdRm6gTvP3XYkQncA"
+          },
+          {
+            "smiya": "Jama3 Al-Nour",
+            "adresse": "Chari3 Ajeyad",
+            "Localisaion": "https://maps.app.goo.gl/wDaMA3vPx8QC1jK1A"
+          },
+          {
+            "smiya": "Jama3 Ibrahim E Khalil",
+            "adresse": "Zan9a B, Chari3 Abderahim Bouabid",
+            "Localisaion": "https://maps.app.goo.gl/FdkaXbKQQ14FqKRr6"
+          },
+          {
+            "smiya": "Jama3 Al Taouba",
+            "adresse": "Chari3 Abderahim Bouabid",
+            "Localisaion": "https://maps.app.goo.gl/GaFVHZoe6euPDwfCA"
+          },
+          {
+            "smiya": "Jama3 Abou Baker Essedik",
+            "adresse": "Chari3 Charif Radi",
+            "Localisaion": "https://maps.app.goo.gl/oxVCxadpBrWRZ9kV6"
+          },
+          {
+            "smiya": "Jama3 Al Mostapha",
+            "adresse": "Chari3 Zouhair Bno Abi Salma",
+            "Localisaion": "https://maps.app.goo.gl/3NQkJoFoWZ3y7mTB7"
+          }
+        ],
+          "lieux_a_visiter": [
+            { "smiya": "Lmontazah",
+              "description": "Parc bach t relaxa ou tastamta3 b tabi3a , kayn 7dah café riad fin ta9dar taglass ou tatsamta3 bljaw.",
+              "adresse": "Berrechid",
+              "activite": "Promenade, détente",
+            "Localisation": "https://maps.app.goo.gl/W2dJDp6ZUkiMqmyL8"
+             },
+            {
+              "smiya": "L9issariya",
+              "description": "Souk ta9lidi fin tachri les produits libghiti , 7wayj,makla , ma3an, mojawharat..... ",
+              "adresse": "Centre-ville de Berrechid",
+              "activite": " t9adya ",
+           "Localisation": "https://maps.app.goo.gl/9BGXDVJ6fse73LoE9"  },
+            {
+              "smiya": "Stade Municipal de Berrechid",
+              "description": " Tiran ",
+              "adresse": "Berrechid",
+              "activite": "riyada",
+            "Localisation": "https://maps.app.goo.gl/5tP7ZPaxRVa6sz1g9"  }
+         ]
+        ,
+        "restaurants & cafés": [
+              {
+                "smiya": "Snack Rim Food",
+                "adresse": "68 chari3 hassan ibnou tabit",
+                "lwa9t": "13h - 00h",
+                "notes": "3,8",
+                "Localisation": "https://maps.app.goo.gl/RY1ne35ZXi7WtLED7",
+                "téléphone": "0657551605",
+                "menu": "salades, pizza, tacos, soupe, Burgers, Tacos, sandwich"
+              },
+              {
+                "smiya": "Be Sushi",
+                "adresse": "Chari3 Ghandi",
+                "lwa9t": "11h00 - 01h00",
+                "notes": "4.9",
+                "Localisation": "https://maps.app.goo.gl/MVEP7AsrpXb6YZ6JA",
+                "téléphone": "0522030357",
+                "menu": "soupe, sushi"
+              },
+              
+              {
+                "smiya": "Pizza la famille",
+                "adresse": "25, hay yousr 1, 7da café diamanda",
+                "lwa9t": "ghadi y9lq: 23:30",
+                "notes": "15 ratings",
+                "Localisation": "https://maps.app.goo.gl/LBaRFgw1KXU26n8Y7",
+                "téléphone": "0657551605",
+                "menu": "pizza 4 saisons, pizza fruit de mer, pizza royal, thon, bolognaise, végétarienne, dinde"
+              },
+              {
+                "smiya": "Mamito",
+                "adresse": "zan9a khafaja",
+                "lwa9t": "12h - 00h",
+                "notes": "4.6"
+              },
+              {
+                "smiya": "La Tour Eiffel",
+                "adresse": "Chari3 la tour eiffel",
+                "lwa9t": "06h00 - 23h30",
+                "notes": "4.3",
+                "Localisation": "https://maps.app.goo.gl/JEb79FWaxNZNeuSD7",
+                "téléphone": "0522325657",
+                "menu": "pizza, jus, salades, Crêpes, milk-shake, tacos, café, ftour, cocktail panini, hamburger"
+              },
+              {
+                "smiya": "Dar Tajine Restaurant",
+                "adresse": "Berrechid",
+                "lwa9t": "11h - 22h",
+                "notes": "377 ratings",
+                "Localisation": "https://maps.app.goo.gl/GvXxS7vNL3rQErb48",
+                "téléphone": "0522533448",
+                "menu": "Tajine, Mechaoui, desserts, frites, sandwichs, jus, tanjia"
+              },
+              {
+                "smiya": "Le Jardin Restaurant & Cafe",
+                "adresse": "bd Mohamed 5",
+                "lwa9t": "9h-23:00",
+                "notes": "144 ratings",
+                "Localisation": "https://maps.app.goo.gl/gjd6jpcdt3RUgBkL8",
+                "téléphone": "0522337033",
+                "menu": "Crêpes, mechaoui, plat, frites, khodra sautés, burgers, sandwichs, pattes, pizzas, desserts"
+              },
+              {
+                "smiya": "ART PIZZA ITALIANNE",
+                "adresse": "Chari3 les FAR",
+                "lwa9t": "01h30 - 23:30",
+                "notes": "4.3",
+                "Localisation": "https://maps.app.goo.gl/GvXxS7vNL3rQErb48",
+                "téléphone": "0668506648",
+                "menu": "pizza"
+              },
+              {
+                "smiya": "Danata ice",
+                "adresse": "el mountazah",
+                "lwa9t": "06h00 - 01h00",
+                "notes": "4",
+                "Localisation": "https://maps.app.goo.gl/rSkgZrccqnDZYKrV9",
+                "téléphone": "0522516210",
+                "menu": "desserts, frites, pates, sandwichs, jus, tanjia, tajine, sandwichs"
+              },
+              {
+                "smiya": "ESPACESAAD",
+                "adresse": "Chari3 Ibrahim Roudani",
+                "lwa9t": "07h00-00h00",
+                "notes": "4",
+                "Localisation": "https://maps.app.goo.gl/1vtEcwf9CXpjZS8c9",
+                "téléphone": "0808583385",
+                "menu": "cocktail, crêpes, jus, desserts"
+              },
+              {
+                "smiya": "Snack Escale",
+                "adresse": "Chari3 abderahim bouabid",
+                "lwa9t": "12hàà - 02h00",
+                "notes": "4.2",
+                "Localisation": "https://maps.app.goo.gl/3Jt3KmJqZmZK3Xnq9",
+                "téléphone": "0671603944",
+                "menu": "tacos, pizzas, burgers, salades, pasticcio, chawarma, jus, frites, sandwichs"
+              },
+              {
+                "smiya": "La Ruche du Jardin",
+                "adresse": "quartier layali",
+                "lwa9t": "07h00 - 23h00",
+                "notes": "4.3",
+                "Localisation": "https://maps.app.goo.gl/1ZjtE4rAVAoqfKny6",
+                "téléphone": "0522336769",
+                "menu": "omellettes, ftour, mojito, cocktail, café, atay, tacos, sandwich, pizza"
+              },
+              {
+                "smiya": "Hikayat Zaman",
+                "adresse": "Chari3 idriss Lherizi",
+                "lwa9t": "11h-23h",
+                "notes": "4",
+                "Localisation": "https://maps.app.goo.gl/AELZUKWmNYe89edTA",
+                "téléphone": "0708520377",
+                "menu": "omellettes, ftour, mojito, cocktail, café, atay, tacos, sandwich, pizza"
+              },
+              {
+                "smiya": "Camilia restaurant",
+                "adresse": "chari3 omar bnou khattab",
+                "lwa9t": "11h00 - 00h00",
+                "notes": "3.9",
+                "Localisation": "https://maps.app.goo.gl/9MCzgsBEc7FJjKXj7",
+                "téléphone": "0707034202",
+                "menu": "mechaoui, tajine, tacos, sandwich, pizza"
+              }
+            ],
+            "Universities": [
+                  {
+                    "smiya": "ENSA : École Nationale des Sciences Appliquées_Berrechid",
+                    "adresse": "Chari3 Les Facultés, B.P .218",
+                    "telephone": "05223-24758",
+                    "horaire": {
+                      "tnin_l_jam3a": "8h30 - 18h",
+                      "sabt": "8h30 - 17h",
+                      "l7ad": "Masdoud"
+                    },
+                    "lwasf": "Jami3a dyal lmohandissin, mora 5 snin katakhod diplome dyal mohandiss dawlaa imma f majal tayaran, informatique, mécatronique, énergétique wla big data.", "Localisation" :"https://maps.app.goo.gl/FZVQ4X69R1ifnhFY8"
+                  },
+                  {
+                    "smiya": "ESEF Berrechid",
+                    "adresse": "Chari3 Les Facultés, 7C57+JX4P7",
+                    "telephone": "Makaynch",
+                    "horaire": {
+                      "tnin_l_jam3a": "8h30 - 18h",
+                      "sabt": "8h30 - 17h",
+                      "l7ad": "Masdoud"
+                    },
+                    "lwasf": "Madrassa dyal Assatida, kay9raw fiha 3 snin." , "Localisation" :"https://maps.app.goo.gl/6ziJXAF6WjtdjQMSA"
+                  },
+                  {
+                    "smiya": "ISTA : Institut Supérieur de Technologie Appliquée",
+                    "adresse": "Chari3 Moulay Ismail, 797V+4FFR318",
+                    "telephone": "Makaynch",
+                    "horaire": {
+                      "tnin_l_jam3a": "8h30 - 18h",
+                      "sabt": "9h30 - 12h30",
+                      "l7ad": "Masdoud"
+                    },
+                    "lwasf": "Takwin Lmihani." , "Localisation":" https://maps.app.goo.gl/5da7AGwyRxoQqPDe8"
+                  },     {
+                    "smiya": "ESB: Ecole supérieure de Business",
+                    "adresse": "46, Chari3 Mohamed 5",
+                    "telephone": "0522516018",
+                    "horaire": {
+                      "tnin_l_jam3a": "8h30 - 21h",
+                      "sabt": "8h30 - 21h00",
+                      "l7ad": "Masdoud"
+                    },  "lwasf": "madrassa dyal idarat  l2a3mal " , "Localisation":" https://maps.app.goo.gl/oWGnn4qNUu4rgGbN8"
+                  }
+                ],
+                "ecoles": [
+                      {
+                        "smiya": "Lycée Qualifiant Ouled Hariz",
+                        "adresse": "Chari3 Hassan Tani, Berrechid",
+                        "map": "https://www.google.com/maps?q=33.2670,-7.5780",
+                        "type": "omomi",
+                        "niveau": "thanawi"
+                      },
+                      {
+                        "smiya": "Lycée Qualifiant Mohammed Mansour",
+                        "adresse": "Chari3 Nasser Allah, Berrechid",
+                        "map": "https://www.google.com/maps?q=33.2680,-7.5790",
+                        "type": "omomi",
+                        "niveau": "thanawi"
+                      },
+                      {
+                        "smiya": "Lycée Qualifiant Général El-Kettani",
+                        "adresse": "Chari3 Mohammed 5, Berrechid",
+                        "map": "https://www.google.com/maps?q=33.2690,-7.5800",
+                        "type": "omomi",
+                        "niveau": "thanawi"
+                      },
+                      {
+                        "smiya": "Lycée Technique Imam Malik",
+                        "adresse": "Chari3 Al-Zarqatoni, Berrechid",
+                        "map": "https://www.google.com/maps?q=33.2700,-7.5810",
+                        "type": "omomi",
+                        "niveau": "thanawi"
+                      },
+                      {
+                        "smiya": "Lycée Qualifiant Ibn Rushd",
+                        "adresse": "Chari3 Taha Hussein, Berrechid",
+                        "map": "https://www.google.com/maps?q=33.2710,-7.5820",
+                        "type": "omomi",
+                        "niveau": "thanawi"
+                      },
+                      {
+                        "smiya": "Lycée Qualifiant Omar Al-Khayyam",
+                        "adresse": "Chari3 As-Salam, Hay Al-Wifaq, Berrechid",
+                        "map": "https://www.google.com/maps?q=33.2720,-7.5830",
+                        "type": "omomi",
+                        "niveau": "thanawi"
+                      },
+                      {
+                        "smiya": "Collège Zareqtoni",
+                        "adresse": "Hay Al-Zarqatoni, Berrechid",
+                        "map": "https://www.google.com/maps?q=33.2730,-7.5840",
+                        "type": "omomi",
+                        "niveau": "i3dadi"
+                      },
+                      {
+                        "smiya": "Collège Martyr Maki",
+                        "adresse": "Hay Al-Shaheed Maki, Berrechid",
+                        "map": "https://www.google.com/maps?q=33.2740,-7.5850",
+                        "type": "omomi",
+                        "niveau": "i3dadi"
+                      },
+                      {
+                        "smiya": "Collège Zaynab Al-Nafzawiya",
+                        "adresse": "Hay Zaynab Al-Nafzawiya, Berrechid",
+                        "map": "https://www.google.com/maps?q=33.2750,-7.5860",
+                        "type": "omomi",
+                        "niveau": "i3dadi"
+                      },
+                      {
+                        "smiya": "Collège Ibn Khaldoun",
+                        "adresse": "Chari3 Ibn Khaldoun, Berrechid",
+                        "map": "https://www.google.com/maps?q=33.2760,-7.5870",
+                        "type": "omomi",
+                        "niveau": "i3dadi"
+                      },
+                      {
+                        "smiya": "Collège Lalla Mariam",
+                        "adresse": "Hay Lalla Mariam, Berrechid",
+                        "map": "https://www.google.com/maps?q=33.2770,-7.5880",
+                        "type": "omomi",
+                        "niveau": "i3dadi"
+                      },
+                      {
+                        "smiya": "École Mohammed Mansour",
+                        "adresse": "Chari3 Mohammed Mansour, Berrechid",
+                        "map": "https://www.google.com/maps?q=33.2780,-7.5890",
+                        "type": "omomi",
+                        "niveau": "ibtdai"
+                      },
+                      {
+                        "smiya": "École Taha Hussein",
+                        "adresse": "Chari3 Taha Hussein, Berrechid",
+                        "map": "https://www.google.com/maps?q=33.2695,-7.5870",
+                        "type": "omomi",
+                        "niveau": "ibtdai"
+                      },
+                      {
+                        "smiya": "École Salam 1",
+                        "adresse": "Chari3 As-Salam, Hay Al-Wifaq, Berrechid",
+                        "map": "https://www.google.com/maps?q=33.2700,-7.5850",
+                        "type": "omomi",
+                        "niveau": "ibtdai"
+                      },
+                      {
+                        "smiya": "École Salam 2",
+                        "adresse": "Chari3 As-Salam, Berrechid",
+                        "map": "https://www.google.com/maps?q=33.2715,-7.5865",
+                        "type": "omomi",
+                        "niveau": "ibtdai"
+                      },
+                      {
+                        "smiya": "École Aicha Al-Taymouri",
+                        "adresse": "Chari3 Aicha Al-Taymouri, Berrechid",
+                        "map": "https://www.google.com/maps?q=33.2725,-7.5875",
+                        "type": "omomi",
+                        "niveau": "ibtdai"
+                      },
+                      {
+                        "smiya": "École Ibn Al-Haytham",
+                        "adresse": "Chari3 Ibn Al-Haytham, Berrechid",
+                        "map": "https://www.google.com/maps?q=33.2735,-7.5885",
+                        "type": "omomi",
+                        "niveau": "ibtdai"
+                      },
+                      {
+                        "smiya": "École Idriss Al-Harizi",
+                        "adresse": "Chari3 Idriss Al-Harizi, Berrechid",
+                        "map": "https://www.google.com/maps?q=33.2745,-7.5895",
+                        "type": "omomi",
+                        "niveau": "ibtdai"
+                      },
+                      {
+                        "smiya": "École Mustafa Al-Maani",
+                        "adresse": "Chari3 Mustafa Al-Maani, Berrechid",
+                        "map": "https://www.google.com/maps?q=33.2755,-7.5905",
+                        "type": "omomi",
+                        "niveau": "ibtdai"
+                      },
+                      {
+                        "smiya": "École Gaza",
+                        "adresse": "Chari3 Gaza, Berrechid",
+                        "map": "https://www.google.com/maps?q=33.2765,-7.5915",
+                        "type": "omomi",
+                        "niveau": "ibtdai"
+                      },
+                      {
+                        "smiya": "École Tarek Fikri",
+                        "adresse": "Chari3 Tarek Fikri, Berrechid",
+                        "map": "https://www.google.com/maps?q=33.2775,-7.5925",
+                        "type": "omomi",
+                        "niveau": "ibtdai"
+                      },
+                      {
+                        "smiya": "École Abdel Rahim Bouabid 1",
+                        "adresse": "Chari3 Abdel Rahim Bouabid, Berrechid",
+                        "map": "https://www.google.com/maps?q=33.2785,-7.5935",
+                        "type": "omomi",
+                        "niveau": "ibtdai"
+                      },
+                      {
+                        "smiya": "École Abdel Rahim Bouabid 2",
+                        "adresse": "Chari3 Abdel Rahim Bouabid, Berrechid",
+                        "map": "https://www.google.com/maps?q=33.2795,-7.5945",
+                        "type": "omomi",
+                        "niveau": "ibtdai"
+                      },
+                      {
+                        "smiya": "École George School",
+                        "adresse": "Chari3 Mohammed 5, Berrechid",
+                        "map": "https://www.google.com/maps?q=33.2805,-7.5955",
+                        "type": "khososi",
+                        "niveau": "ibtdai, i3dadi"
+                      },
+                      {
+                        "smiya": "École Pierre de Coubertin",
+                        "adresse": "Chari3 Al-Zarqatoni, Berrechid",
+                        "map": "https://www.google.com/maps?q=33.2815,-7.5965",
+                        "type": "khososi",
+                        "niveau": "ibtdai"
+                      },
+                      {
+                        "smiya": "École Yasmin",
+                        "adresse": "Chari3 Al-Yasmin, Berrechid",
+                        "map": "https://www.google.com/maps?q=33.2825,-7.5975",
+                        "type": "khososi",
+                        "niveau": "ibtdai, i3dadi"
+                      },
+                      {
+                        "smiya": "École César",
+                        "adresse": "Chari3 César, Berrechid",
+                        "map": "https://www.google.com/maps?q=33.2835,-7.5985",
+                        "type": "khososi",
+                        "niveau": "ibtdai, i3dadi"
+                      },
+                      {
+                        "smiya": "École Nebras Al-Ilm",
+                        "adresse": "Chari3 Nebras, Berrechid",
+                        "map": "https://www.google.com/maps?q=33.2845,-7.5995",
+                        "type": "khososi",
+                        "niveau": "ibtdai, thanawi"
+                      },
+                      {
+                        "smiya": "École Al-Manbit",
+                        "adresse": "Chari3 Al-Manbit, Berrechid",
+                        "map": "https://www.google.com/maps?q=33.2855,-7.6005",
+                        "type": "khososi",
+                        "niveau": "ibtdai, i3dadi"
+                      },
+                      {
+                        "smiya": "École Al-Jisr",
+                        "adresse": "Chari3 Al-Jisr, Berrechid",
+                        "map": "https://www.google.com/maps?q=33.2865,-7.6015",
+                        "type": "khososi",
+                        "niveau": "ibtdai, i3dadi"
+                      },
+                      {
+                        "smiya": "École Aijal Al-Madina",
+                        "adresse": "Chari3 Aijal Al-Madina, Berrechid",
+                        "map": "https://www.google.com/maps?q=33.2875,-7.6025",
+                        "type": "khososi",
+                        "niveau": "ibtdai, i3dadi, thanawi"
+                      },
+                      {
+                        "smiya": "École Miranda",
+                        "adresse": "Chari3 Miranda, Berrechid",
+                        "map": "https://www.google.com/maps?q=33.2885,-7.6035",
+                        "type": "khososi",
+                        "niveau": "ibtdai"
+                      },
+                      {
+                        "smiya": "École Al-Amana",
+                        "adresse": "Chari3 Al-Amana, Berrechid",
+                        "map": "https://www.google.com/maps?q=33.2895,-7.6045",
+                        "type": "khososi",
+                        "niveau": "ibtdai, i3dadi"
+                      },
+                      {
+                        "smiya": "École Al-Muhajir",
+                        "adresse": "Chari3 Al-Muhajir, Berrechid",
+                        "map": "https://www.google.com/maps?q=33.2905,-7.6055",
+                        "type": "khososi",
+                        "niveau": "ibtdai"
+                      },
+                      {
+                        "smiya": "École Al-Habiba",
+                        "adresse": "Chari3 Al-Habiba, Berrechid",
+                        "map": "https://www.google.com/maps?q=33.2915,-7.6065",
+                        "type": "khososi",
+                        "niveau": "ibtdai, i3dadi, thanawi"
+                      }
+                    ],
+                        "etablissements_sante": [
+                          {
+                            "smiya": "Hôpital Psychiatrique de Berrechid",
+                            "adresse": "Quartier Industriel, Berrechid",
+                            "telephone": "Non précisé",
+                            "horaire": "24h/24",
+                            "map": "https://www.google.com/maps?q=33.2651,-7.5803"
+                          },
+                          {
+                            "smiya": "Clinique Ibn Zohr",
+                            "adresse": "46 Lotissement Al Amal, Berrechid",
+                            "telephone": "0522536000",
+                            "horaire": "8h00 - 18h00",
+                            "map": "https://www.google.com/maps?q=33.2702,-7.5908"
+                          },
+                          {
+                            "smiya": "Clinique Chifa",
+                            "adresse": "Route de Marrakech, Lotissement Jeddah n°7, Berrechid",
+                            "telephone": "0522327671",
+                            "horaire": "8h00 - 20h00",
+                            "map": "https://www.google.com/maps?q=33.2718,-7.5923"
+                          },
+                          {
+                            "smiya": "Clinique Chaouia",
+                            "adresse": "3 Rue Okba Ibnou Nafie, Berrechid",
+                            "telephone": "0522337800",
+                            "horaire": "8h30 - 18h00",
+                            "map": "https://www.google.com/maps?q=33.2684,-7.5847"
+                          },
+                          {
+                            "smiya": "Hôpital Er-razi",
+                            "adresse": "Derb Jdid Z.I., Berrechid",
+                            "telephone": "0522337900",
+                            "horaire": "24h/24",
+                            "map": "https://www.google.com/maps?q=33.2640,-7.5810"
+                          },
+                          {
+                            "smiya": "Centre de Radiodiagnostic de Berrechid",
+                            "adresse": "36 Rue Tarik Bnou Ziad, Berrechid",
+                            "telephone": "0522536005",
+                            "horaire": "8h30 - 18h00",
+                            "map": "https://www.google.com/maps?q=33.2691,-7.5862"
+                          }
+                        ]
+  }

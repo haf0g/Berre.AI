@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Features - Berre.AI</title>
+    <link rel="icon" href="https://emojicdn.elk.sh/%F0%9F%8C%8E" type="image/png">
+    <link rel="stylesheet" href="../static/css/styles_landing.css" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <style>
+        .wrapper {
+            padding-top: 3rem;
+        }
+        
+        .grid-cols-3 {
+            padding: 2rem 0;
+        }
+        
+        .grid-col-item {
+            padding: 2rem;
+            text-align: center;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 0.5rem 1.5rem rgba(22, 28, 45, 0.1);
+            transition: transform 0.3s ease;
+        }
+        
+        .grid-col-item:hover {
+            transform: translateY(-5px);
+        }
+        
+        .feature-icon {
+            color: var(--primary-color);
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <header class="container header">
+        <nav class="nav">
+            <div class="logo">
+                <h2>Berre.AI</h2>
+            </div>
+            <div class="nav_menu" id="nav_menu">
+                <button class="close_btn" id="close_btn">
+                    <i class="ri-close-fill"></i>
+                </button>
+                <ul class="nav_menu_list">
+                    <li class="nav_menu_item">
+                        <a href="/" class="nav_menu_link">home</a>
+                    </li>
+                    <li class="nav_menu_item">
+                        <a href="/about" class="nav_menu_link">about</a>
+                    </li>
+                    <li class="nav_menu_item">
+                        <a href="/features" class="nav_menu_link">features</a>
+                    </li>
+                    <li class="nav_menu_item">
+                        <a href="/contact" class="nav_menu_link">contact</a>
+                    </li>
+                </ul>
+            </div>
+            <button class="toggle_btn" id="toggle_btn">
+                <i class="ri-menu-line"></i>
+            </button>
+        </nav>
+    </header>
+
+    <section class="wrapper">
+        <div class="container" data-aos="fade-up" data-aos-duration="1000">
+            <div class="grid-cols-3">
+                <div class="grid-col-item">
+                    <div class="icon">
+                        <i class="ri-global-line feature-icon"></i>
+                    </div>
+                    <div class="featured_info">
+                        <span>Multilingual Support</span>
+                        <p>
+                            Natural conversations in both English and French, with automatic language detection.
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="grid-col-item">
+                    <div class="icon">
+                        <i class="ri-search-eye-line feature-icon"></i>
+                    </div>
+                    <div class="featured_info">
+                        <span>RAG Technology</span>
+                        <p>
+                            Advanced retrieval system ensuring accurate and up-to-date local information.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="grid-col-item">
+                    <div class="icon">
+                        <i class="ri-cpu-fill feature-icon"></i>
+                    </div>
+                    <div class="featured_info">
+                        <span>AI-Powered</span>
+                        <p>
+                            Leveraging Groq's state-of-the-art language models for natural interactions.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer></footer>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
+        <script src="../static/js/script_landing.js" defer></script>
+</body>
+</html>

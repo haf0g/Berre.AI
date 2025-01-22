@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About - Berre.AI</title>
+    <link rel="icon" href="https://emojicdn.elk.sh/%F0%9F%8C%8E" type="image/png">
+    <link rel="stylesheet" href="../static/css/styles_landing.css" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <style>
+        .grid-item-1 {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 0.5rem 1.5rem rgba(22, 28, 45, 0.1);
+            padding: 3rem;
+            margin-top: 2rem;
+        }
+        
+        .main-heading {
+            color: var(--lg-heading);
+            margin-bottom: 1.5rem;
+        }
+        
+        .main-heading span {
+            color: var(--primary-color);
+        }
+        
+        .info-text {
+            color: #334157;
+            font-size: 1.1rem;
+            line-height: 1.6;
+            margin-bottom: 1.5rem;
+        }
+        
+        .info-text ul {
+            margin-top: 1rem;
+            padding-left: 1.5rem;
+        }
+        
+        .info-text li {
+            margin-bottom: 0.5rem;
+            position: relative;
+        }
+        
+        .info-text li:before {
+            content: "•";
+            color: var(--primary-color);
+            position: absolute;
+            left: -1.5rem;
+        }
+    </style>
+</head>
+<body>
+    <header class="container header">
+        <nav class="nav">
+            <div class="logo">
+                <h2>Berre.AI</h2>
+            </div>
+            <div class="nav_menu" id="nav_menu">
+                <button class="close_btn" id="close_btn">
+                    <i class="ri-close-fill"></i>
+                </button>
+                <ul class="nav_menu_list">
+                    <li class="nav_menu_item">
+                        <a href="/" class="nav_menu_link">home</a>
+                    </li>
+                    <li class="nav_menu_item">
+                        <a href="/about" class="nav_menu_link">about</a>
+                    </li>
+                    <li class="nav_menu_item">
+                        <a href="/features" class="nav_menu_link">features</a>
+                    </li>
+                    <li class="nav_menu_item">
+                        <a href="/contact" class="nav_menu_link">contact</a>
+                    </li>
+                </ul>
+            </div>
+            <button class="toggle_btn" id="toggle_btn">
+                <i class="ri-menu-line"></i>
+            </button>
+        </nav>
+    </header>
+
+    <section class="wrapper">
+        <div class="container" data-aos="fade-up" data-aos-duration="1000">
+            <div class="grid-item-1">
+                <h1 class="main-heading">About <span>Berre.AI</span></h1>
+                <p class="info-text">
+                    Berre.AI is an innovative chatbot solution powered by artificial intelligence, specifically designed to assist visitors and locals in discovering Berrechid. Our solution combines the power of Groq's LLM technology with a sophisticated RAG (Retrieval-Augmented Generation) system to provide accurate, contextual information about the city.
+                </p>
+                <div class="info-text">
+                    Built using cutting-edge technologies:
+                    <ul>
+                        <li>Groq API for natural language processing</li>
+                        <li>RAG system for accurate local information retrieval</li>
+                        <li>Flask backend for robust server handling</li>
+                        <li>Responsive frontend for seamless user experience</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer></footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
+    <script src="../static/js/script_landing.js" defer></script>
+</body>
+</html>

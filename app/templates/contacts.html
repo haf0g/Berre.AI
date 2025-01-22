@@ -1,0 +1,275 @@
+<!-- contact.html -->
+ <!--
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About - Berrechid Passangers Assistant</title>
+    <link rel="icon" href="https://emojicdn.elk.sh/%F0%9F%8C%8E" type="image/png">
+    <link rel="stylesheet" href="../static/css/styles_landing.css" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+</head>
+<body>
+    // Header (same as landing page) 
+    <header class="container header">
+        <nav class="nav">
+            <div class="logo">
+                <h2>Berre.AI</h2>
+            </div>
+            <div class="nav_menu" id="nav_menu">
+                <button class="close_btn" id="close_btn">
+                    <i class="ri-close-fill"></i>
+                </button>
+                <ul class="nav_menu_list">
+                    <li class="nav_menu_item">
+                        <a href="/" class="nav_menu_link">home</a>
+                    </li>
+                    <li class="nav_menu_item">
+                        <a href="/about" class="nav_menu_link">about</a>
+                    </li>
+                    <li class="nav_menu_item">
+                        <a href="/features" class="nav_menu_link">features</a>
+                    </li>
+                    <li class="nav_menu_item">
+                        <a href="/contact" class="nav_menu_link">contact</a>
+                    </li>
+                </ul>
+            </div>
+            <button class="toggle_btn" id="toggle_btn">
+                <i class="ri-menu-line"></i>
+            </button>
+        </nav>
+    </header>
+
+    <section class="wrapper">
+        <div class="container" data-aos="fade-up" data-aos-duration="1000">
+            <div class="grid-cols-2">
+                <div class="grid-item-1">
+                    <h1 class="main-heading">Meet Our <span>Team</span></h1>
+                    <div class="team-members">
+                        <div class="featured_info">
+                            <span class="title">Hafid GARHOUM</span>
+                            <p>Lead Developer</p>
+                            <p>
+                                <a href="mailto:hafid.garhoum@email.com">Email</a> |
+                                <a href="https://linkedin.com/in/hafid-garhoum">LinkedIn</a> |
+                                <a href="https://github.com/hafidgarhoum">GitHub</a>
+                            </p>
+                        </div>
+                        
+                        <div class="featured_info">
+                            <span class="title">Khawla DARHAMI</span>
+                            <p>AI Engineer</p>
+                            <p>
+                                <a href="mailto:khawla.darhami@email.com">Email</a> |
+                                <a href="https://linkedin.com/in/khawla-darhami">LinkedIn</a> |
+                                <a href="https://github.com/khawladarhami">GitHub</a>
+                            </p>
+                        </div>
+                        
+                        <div class="featured_info">
+                            <span class="title">Chaimaa DHAH</span>
+                            <p>Backend Developer</p>
+                            <p>
+                                <a href="mailto:chaimaa.dhah@email.com">Email</a> |
+                                <a href="https://linkedin.com/in/chaimaa-dhah">LinkedIn</a> |
+                                <a href="https://github.com/chaimaadhah">GitHub</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer></footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
+    <script src="../static/js/script_landing.js" defer></script>
+</body>
+</html>
+
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact - Berre.AI</title>
+    <link rel="icon" href="https://emojicdn.elk.sh/%F0%9F%8C%8E" type="image/png">
+    <link rel="stylesheet" href="../static/css/styles_landing.css" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <style>
+        .page-title {
+            text-align: center;
+            margin: 3rem 0;
+        }
+        
+        .page-title h1 {
+            font-size: var(--h1-font-size);
+            color: var(--lg-heading);
+            margin-bottom: 1rem;
+        }
+        
+        .page-title p {
+            color: var(--text-content);
+            font-size: 1.1rem;
+        }
+        
+        .team-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 3rem;
+        }
+        
+        .team-member {
+            background: white;
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 0.5rem 1.5rem rgba(22, 28, 45, 0.1);
+            transition: transform 0.3s;
+        }
+        
+        .team-member:hover {
+            transform: translateY(-5px);
+        }
+        
+        .member-name {
+            font-size: 1.25rem;
+            color: var(--lg-heading);
+            margin-bottom: 0.5rem;
+        }
+        
+        .member-role {
+            color: var(--primary-color);
+            font-weight: 500;
+            margin-bottom: 1rem;
+        }
+        
+        .member-links {
+            display: flex;
+            gap: 1rem;
+            margin-top: 1.5rem;
+        }
+        
+        .member-links a {
+            color: var(--link-color);
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            transition: color 0.3s;
+        }
+        
+        .member-links a:hover {
+            color: var(--primary-color);
+        }
+        
+        .contact-info {
+            text-align: center;
+            margin-top: 4rem;
+            padding: 2rem;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 0.5rem 1.5rem rgba(22, 28, 45, 0.1);
+        }
+        
+        .contact-info h2 {
+            color: var(--lg-heading);
+            margin-bottom: 1rem;
+        }
+        
+        .contact-info p {
+            color: var(--text-content);
+        }
+    </style>
+</head>
+<body>
+    <header class="container header">
+        <nav class="nav">
+            <div class="logo">
+                <h2>Berre.AI</h2>
+            </div>
+            <div class="nav_menu" id="nav_menu">
+                <button class="close_btn" id="close_btn">
+                    <i class="ri-close-fill"></i>
+                </button>
+                <ul class="nav_menu_list">
+                    <li class="nav_menu_item">
+                        <a href="/" class="nav_menu_link">home</a>
+                    </li>
+                    <li class="nav_menu_item">
+                        <a href="/about" class="nav_menu_link">about</a>
+                    </li>
+                    <li class="nav_menu_item">
+                        <a href="/features" class="nav_menu_link">features</a>
+                    </li>
+                    <li class="nav_menu_item">
+                        <a href="/contact" class="nav_menu_link">contact</a>
+                    </li>
+                </ul>
+            </div>
+            <button class="toggle_btn" id="toggle_btn">
+                <i class="ri-menu-line"></i>
+            </button>
+        </nav>
+    </header>
+
+    <section class="wrapper">
+        <div class="container" data-aos="fade-up" data-aos-duration="1000">
+            <div class="page-title">
+                <h1>Meet Our Team</h1>
+                <p>Big Data Engineering Students working to provide AI solutions in service of Berrechid city</p>
+            </div>
+
+
+        <div class="team-grid">
+            <div class="team-member">
+                <h3 class="member-name">Hafid GARHOUM</h3>
+                <p class="member-role">Student</p>
+                <p>Big Data Engineering Student passionate about creating innovative solutions.</p>
+                <div class="member-links">
+                    <a href="mailto:haffiidd2004@email.com"><i class="ri-mail-line"></i> Email</a>
+                    <a href="https://linkedin.com/in/hafid-garhoum"><i class="ri-linkedin-line"></i> LinkedIn</a>
+                    <a href="https://github.com/haf0g"><i class="ri-github-line"></i> GitHub</a>
+                </div>
+            </div>
+
+            <div class="team-member">
+                <h3 class="member-name">Khawla DARHAMI</h3>
+                <p class="member-role">Student</p>
+                <p>Big Data Engineering Student passionate about creating innovative solutions.</p>
+                <div class="member-links">
+                    <a href="mailto:khawla.darhami@email.com"><i class="ri-mail-line"></i> Email</a>
+                    <a href="https://www.linkedin.com/in/darhami-khawla-7371582b5/"><i class="ri-linkedin-line"></i> LinkedIn</a>
+                    <a href="https://github.com/khawladarhami"><i class="ri-github-line"></i> GitHub</a>
+                </div>
+            </div>
+
+            <div class="team-member">
+                <h3 class="member-name">Chaimaa DHAH</h3>
+                <p class="member-role">Student</p>
+                <p>Big Data Engineering Student passionate about creating innovative solutions.</p>
+                <div class="member-links">
+                    <a href="mailto:chaimaa.dhah@email.com"><i class="ri-mail-line"></i> Email</a>
+                    <a href="https://www.linkedin.com/in/chaimaa-dhah-671324224/"><i class="ri-linkedin-line"></i> LinkedIn</a>
+                    <a href="https://github.com/chaimaadhah"><i class="ri-github-line"></i> GitHub</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="contact-info">
+            <h2>Get in Touch</h2>
+            <p>Have questions about our project? We'd love to hear from you!</p>
+        </div>
+    </main>
+    <footer></footer>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
+        <script src="../static/js/script_landing.js" defer></script>
+</body>
+</html>
