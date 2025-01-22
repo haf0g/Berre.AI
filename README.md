@@ -54,7 +54,7 @@ To set up the project locally, follow these steps:
 4. **Set up the Groq API key**:
     - Create a `.env` file in the root directory and add your Groq API key:
         ```env
-        GROQ_API_KEY=your_groq_api_key_here
+        GROQ_API=your_groq_api_key_here
         ```
 
 5. **Run the application**:
