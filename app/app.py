@@ -25,13 +25,19 @@ class BerrechidRAG:
         self.initialize_embeddings()
 
     def load_data(self, data_path: str) -> List[BerrechidLocation]:
+        # Construct the full path relative to the script's location
+        script_dir = os.path.dirname(os.path.abspath(__file__))
+        # Construct the full path relative to the script's directory
+        full_path = os.path.join(script_dir, data_path)
+        print(f"Loading data from: {full_path}")  # Debugging: Print the full path
+
         try:
-            with open(data_path, 'r', encoding='utf-8') as f:
+            with open(full_path, 'r', encoding='utf-8') as f:
                 raw_data = json.load(f)
         except FileNotFoundError:
-            raise ValueError(f"File not found: {data_path}")
+            raise ValueError(f"File not found: {full_path}")
         except json.JSONDecodeError:
-            raise ValueError(f"Error decoding JSON in file: {data_path}")
+            raise ValueError(f"Error decoding JSON in file: {full_path}")
 
         locations = []
         for category, items in raw_data.items():
