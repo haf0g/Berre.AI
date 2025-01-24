@@ -1,0 +1,807 @@
+{
+  "supermarkets": [
+    {
+      "name": "Carrefour Market - Berrechid",
+      "address": "Mohamed 5 Street, Berrechid, Morocco",
+      "map": "https://www.google.com/maps?q=33.2695,-7.5850",
+      "amenities": ["Food products", "Electronics", "Household products", "Clothing", "Cosmetics", "Bazaar", "Toys", "Pharmacy", "Bookstore", "Organic products"],
+      "hours": "8:00 AM - 10:00 PM",
+      "parking": "Available",
+      "payment_methods": ["Credit card", "Cash"]
+    },
+    {
+      "name": "BIM - Imi Nwaday H Lot",
+      "address": "Imi Nwaday H Lot, Lot 120-121, Berrechid",
+      "map": "https://www.google.com/maps?q=33.2695,-7.5870",
+      "amenities": ["Food products", "Household products"],
+      "hours": "8:00 AM - 9:00 PM",
+      "parking": "Not available",
+      "payment_methods": ["Credit card", "Cash"]
+    },
+    {
+      "name": "BIM - Al Qods Lot Building",
+      "address": "211 Al Qods Lot, Berrechid",
+      "map": "https://www.google.com/maps?q=33.2700,-7.5850",
+      "amenities": ["Food products", "Beverages"],
+      "hours": "8:00 AM - 9:00 PM",
+      "parking": "Available",
+      "payment_methods": ["Credit card", "Cash"]
+    },
+    {
+      "name": "BIM - Rim Residence",
+      "address": "Rim Residence 124, Bir Anzaran Boulevard, Berrechid",
+      "map": "https://www.google.com/maps?q=33.2710,-7.5890",
+      "amenities": ["Food products", "Hygiene"],
+      "hours": "8:00 AM - 10:00 PM",
+      "parking": "Available",
+      "payment_methods": ["Credit card", "Cash"]
+    },
+    {
+      "name": "BIM - Al Wahda Street",
+      "address": "Al Wahda Street, Berrechid",
+      "map": "https://www.google.com/maps?q=33.2720,-7.5900",
+      "amenities": ["Food", "Snacks"],
+      "hours": "8:00 AM - 9:00 PM",
+      "parking": "Not available",
+      "payment_methods": ["Credit card", "Cash"]
+    },
+    {
+      "name": "BIM - Avenue Mohammed V",
+      "address": "Avenue Mohammed V, Berrechid",
+      "map": "https://www.google.com/maps?q=33.2730,-7.5910",
+      "amenities": ["Fresh products", "Beverages"],
+      "hours": "8:00 AM - 9:00 PM",
+      "parking": "Available",
+      "payment_methods": ["Credit card", "Cash"]
+    },
+    {
+      "name": "Marjane Market - Berrechid",
+      "address": "Mohamed 5 Street, Berrechid, Morocco",
+      "map": "https://www.google.com/maps?q=33.2700,-7.5880",
+      "amenities": ["Food products", "Electronics", "Household products", "Clothing", "Cosmetics", "Bazaar", "Toys", "Pharmacy", "Bookstore", "Organic products"],
+      "hours": "8:00 AM - 10:00 PM",
+      "parking": "Available",
+      "payment_methods": ["Credit card", "Cash"]
+    }
+  ],
+  
+  "hotels": [
+    {
+      "name": "Equi Palace & SPA Near Airport",
+      "address": "Casablanca Road, Berrechid",
+      "map": "https://www.google.com/maps?q=33.2695,-7.5870",
+      "type": "Hotel",
+      "amenities": ["Outdoor pool", "Gym", "Free private parking", "Garden"]
+    },
+    {
+      "name": "Hotel Hariz Son",
+      "address": "Hassan II Avenue, Berrechid",
+      "map": "https://www.google.com/maps?q=33.2700,-7.5850",
+      "type": "4-star Hotel",
+      "amenities": ["Garden", "Restaurant", "Free private parking", "Terrace", "Bar"]
+    },
+    {
+      "name": "Nabil Rental",
+      "address": "El Menzah District, Berrechid",
+      "map": "https://www.google.com/maps?q=33.2710,-7.5860",
+      "type": "Villa",
+      "amenities": ["Private pool", "Terrace", "Balcony", "Garden view"]
+    },
+    {
+      "name": "Sidi Rahal Apartment",
+      "address": "Sidi Rahal, Berrechid",
+      "map": "https://www.google.com/maps?q=33.2720,-7.5870",
+      "type": "Apartment",
+      "amenities": ["Private beach", "Air conditioning"]
+    },
+    {
+      "name": "Ohod Residence",
+      "address": "Al Fath District, Berrechid",
+      "map": "https://www.google.com/maps?q=33.2730,-7.5880",
+      "type": "Residence",
+      "amenities": ["Private parking", "Free Wi-Fi", "Garden view"]
+    },
+    {
+      "name": "Dar Armonia Farm in Berrechid",
+      "address": "Casablanca Road, Berrechid",
+      "map": "https://www.google.com/maps?q=33.2740,-7.5890",
+      "type": "Farm",
+      "amenities": ["Garden", "Outdoor pool", "Countryside view"]
+    },
+    {
+      "name": "Apartment for Rent in Berrechid",
+      "address": "Zitoune District, Berrechid",
+      "map": "https://www.google.com/maps?q=33.2750,-7.5900",
+      "type": "Apartment",
+      "amenities": ["Air conditioning", "Balcony", "Free Wi-Fi"]
+    },
+    {
+      "name": "Marrakech Apartment",
+      "address": "Mohammadi District, Berrechid",
+      "map": "https://www.google.com/maps?q=33.2760,-7.5910",
+      "type": "Apartment",
+      "amenities": ["Free Wi-Fi", "Private parking"]
+    }
+  ],
+
+  "banks": [
+    {
+      "name": "Banque Populaire (Branch: Berrechid Al Yousr)",
+      "address": "5 Lot Al Yousr",
+      "phone": "0522535690",
+      "hours": "8:30 AM - 6:00 PM"
+    },
+    {
+      "name": "Banque Populaire (Branch: Berrechid Hassan II)",
+      "address": "Hassan II Street, Halima Lot, Berrechid, Morocco",
+      "phone": "0522327671",
+      "hours": "8:30 AM - 6:00 PM"
+    },
+    {
+      "name": "Banque Populaire",
+      "address": "Mohamed V Street",
+      "phone": "0522337799",
+      "hours": "8:30 AM - 6:00 PM"
+    },
+    {
+      "name": "Banque Populaire",
+      "address": "Ez-Zahra Lot 384",
+      "phone": "0522535750",
+      "hours": "8:30 AM - 6:00 PM"
+    },
+    {
+      "name": "Attijariwafa Bank",
+      "address": "Hassan II Street",
+      "phone": "0529 01 05 44",
+      "hours": "8:30 AM - 6:00 PM"
+    },
+    {
+      "name": "Attijariwafa Bank",
+      "address": "Mediouna Road, Sidi Amer Lot 3",
+      "phone": "0522535510",
+      "hours": "8:30 AM - 6:00 PM"
+    },
+    {
+      "name": "Attijariwafa Bank",
+      "address": "Mohamed V Street",
+      "phone": "0522 33 72 49",
+      "hours": "8:30 AM - 6:00 PM"
+    },
+    {
+      "name": "Attijariwafa Bank",
+      "address": "61 Moulay Ismail Street",
+      "phone": "0522535000",
+      "hours": "8:30 AM - 6:00 PM"
+    },
+    {
+      "name": "Attijariwafa Bank",
+      "address": "Zahra District",
+      "phone": "0529 02 33 44",
+      "hours": "8:30 AM - 6:00 PM"
+    },
+    {
+      "name": "BMCE Bank",
+      "address": "Brahim Roudani Street, Ez-Zahra Lot 135",
+      "phone": "0522535720",
+      "hours": "8:30 AM - 6:00 PM"
+    },
+    {
+      "name": "BMCE Bank",
+      "address": "128 Biranzarane Street",
+      "phone": "0522535642",
+      "hours": "8:30 AM - 6:00 PM"
+    },
+    {
+      "name": "BMCE Bank",
+      "address": "Hassan II Street",
+      "phone": "05 22 53 50 70",
+      "hours": "8:30 AM - 6:00 PM"
+    },
+    {
+      "name": "BMCE Bank",
+      "address": "Mohamed V Street",
+      "phone": "05 22 337043",
+      "hours": "8:30 AM - 6:00 PM"
+    },
+    {
+      "name": "CIH Bank",
+      "address": "Al Fida Street, Intersection with Jaber Ibnou Hayane Street, Yasmina District",
+      "phone": "0522535430",
+      "hours": "8:30 AM - 6:00 PM"
+    },
+    {
+      "name": "CIH Bank",
+      "address": "49 Mohamed V Street, Essaf Lot",
+      "phone": "0522535060",
+      "hours": "8:30 AM - 6:00 PM"
+    },
+    {
+      "name": "Crédit Agricole du Maroc",
+      "address": "Mohamed V Street",
+      "phone": "0522337013",
+      "hours": "8:30 AM - 6:00 PM"
+    },
+    {
+      "name": "Crédit Agricole du Maroc",
+      "address": "Moulay El Hassan Street",
+      "phone": "0522533647",
+      "hours": "8:30 AM - 6:00 PM"
+    },
+    {
+      "name": "Société Générale Maroc",
+      "address": "Intersection of Mohamed V Street and Hassan II Street, Essafi Lot",
+      "phone": "05223-44556",
+      "hours": "8:30 AM - 6:00 PM"
+    },
+    {
+      "name": "Société Générale Maroc",
+      "address": "328 Hassan II Street",
+      "phone": "0522535730",
+      "hours": "8:30 AM - 6:00 PM"
+    }
+  ],
+    "Mosque": [
+        {
+            "name": "Jama3 Al Qods",
+            "address": "Abdellah Ganoune Street",
+            "location": "https://maps.app.goo.gl/trMf3rEXcBBnpoXc9"
+        },
+        {
+            "name": "Jama3 Al Fath",
+            "address": "Jerusalem Lane",
+            "location": "https://maps.app.goo.gl/RkCnyHMumyt95PNn8"
+        },
+        {
+            "name": "Jama3 Anas Ibn Malik",
+            "address": "Cheikh Maalainin Lane",
+            "location": "https://maps.app.goo.gl/jmqRtBAmrfPEJzki6"
+        },
+        {
+            "name": "Jama3 AlHay Hassani",
+            "address": "Rahal El Meskini Street",
+            "location": "https://maps.app.goo.gl/MjXToEfYUMiVzEeH6"
+        },
+        {
+            "name": "Jama3 Aarafat",
+            "address": "Rayhana Street",
+            "location": "https://maps.app.goo.gl/FsM9syPoh2Jkg89w5"
+        },
+        {
+            "name": "Jama3 Ohod",
+            "address": "Algeria Street",
+            "location": "https://maps.app.goo.gl/bfkRgfM3KzK4UmdW9"
+        },
+        {
+            "name": "Jama3 Riad",
+            "address": "Al-Aqaba Street, near La Tour Eiffel Cafe",
+            "location": "https://maps.app.goo.gl/vCn7qW5T7wWpbe727"
+        },
+        {
+            "name": "Jama3 Yassmina",
+            "address": "Ibn Khafadja Lane, Abdellah Ganoune Street",
+            "location": "https://maps.app.goo.gl/VoppHGxAqVCcRKMh7"
+        },
+        {
+            "name": "Jama3 Al-Azhar",
+            "address": "Nice Street",
+            "location": "https://maps.app.goo.gl/BdRm6gTvP3XYkQncA"
+        },
+        {
+            "name": "Jama3 Al-Nour",
+            "address": "Ajeyad Street",
+            "location": "https://maps.app.goo.gl/wDaMA3vPx8QC1jK1A"
+        },
+        {
+            "name": "Jama3 Ibrahim E Khalil",
+            "address": "Lane B, Abderahim Bouabid Street",
+            "location": "https://maps.app.goo.gl/FdkaXbKQQ14FqKRr6"
+        },
+        {
+            "name": "Jama3 Al Taouba",
+            "address": "Abderahim Bouabid Street",
+            "location": "https://maps.app.goo.gl/GaFVHZoe6euPDwfCA"
+        },
+        {
+            "name": "Jama3 Abou Baker Essedik",
+            "address": "Charif Radi Street",
+            "location": "https://maps.app.goo.gl/oxVCxadpBrWRZ9kV6"
+        },
+        {
+            "name": "Jama3 Al Mostapha",
+            "address": "Zouhair Bno Abi Salma Street",
+            "location": "https://maps.app.goo.gl/3NQkJoFoWZ3y7mTB7"
+        }
+    ],
+    "places_to_visit": [
+        {
+            "name": "Lmontazah",
+            "description": "A park where you can relax and enjoy nature, with a nearby Riad Cafe for seating and enjoying the ambiance.",
+            "address": "Berrechid",
+            "activity": "Walk, relaxation",
+            "location": "https://maps.app.goo.gl/W2dJDp6ZUkiMqmyL8"
+        },
+        {
+            "name": "L9issariya",
+            "description": "A traditional market where you can shop for clothes, food, utensils, jewelry, and more.",
+            "address": "Downtown Berrechid",
+            "activity": "Shopping",
+            "location": "https://maps.app.goo.gl/9BGXDVJ6fse73LoE9"
+        },
+        {
+            "name": "Municipal Stadium of Berrechid",
+            "description": "A sports field.",
+            "address": "Berrechid",
+            "activity": "Sports",
+            "location": "https://maps.app.goo.gl/5tP7ZPaxRVa6sz1g9"
+        }
+    ],
+    "restaurants_and_cafes": [
+        {
+            "name": "Snack Rim Food",
+            "address": "68 Hassan Ibnou Tabit Street",
+            "hours": "1:00 PM - 12:00 AM",
+            "rating": "3.8",
+            "location": "https://maps.app.goo.gl/RY1ne35ZXi7WtLED7",
+            "phone": "0657551605",
+            "menu": "Salads, pizza, tacos, soup, burgers, tacos, sandwiches"
+        },
+        {
+            "name": "Be Sushi",
+            "address": "Ghandi Street",
+            "hours": "11:00 AM - 1:00 AM",
+            "rating": "4.9",
+            "location": "https://maps.app.goo.gl/MVEP7AsrpXb6YZ6JA",
+            "phone": "0522030357",
+            "menu": "Soup, sushi"
+        },
+        {
+            "name": "Pizza La Famille",
+            "address": "25 Hay Yousr 1, near Diamanda Cafe",
+            "hours": "Closes at 11:30 PM",
+            "rating": "15 ratings",
+            "location": "https://maps.app.goo.gl/LBaRFgw1KXU26n8Y7",
+            "phone": "0657551605",
+            "menu": "Four seasons pizza, seafood pizza, royal pizza, tuna, bolognese, vegetarian, turkey"
+        },
+        {
+            "name": "Mamito",
+            "address": "Khafaja Lane",
+            "hours": "12:00 PM - 12:00 AM",
+            "rating": "4.6"
+        },
+        {
+            "name": "La Tour Eiffel",
+            "address": "La Tour Eiffel Street",
+            "hours": "6:00 AM - 11:30 PM",
+            "rating": "4.3",
+            "location": "https://maps.app.goo.gl/JEb79FWaxNZNeuSD7",
+            "phone": "0522325657",
+            "menu": "Pizza, juice, salads, crepes, milkshake, tacos, coffee, breakfast, cocktail, panini, hamburger"
+        },
+        {
+            "name": "Dar Tajine Restaurant",
+            "address": "Berrechid",
+            "hours": "11:00 AM - 10:00 PM",
+            "rating": "377 ratings",
+            "location": "https://maps.app.goo.gl/GvXxS7vNL3rQErb48",
+            "phone": "0522533448",
+            "menu": "Tagine, mechoui, desserts, fries, sandwiches, juice, tanjia"
+        },
+        {
+            "name": "Le Jardin Restaurant & Cafe",
+            "address": "Mohamed V Boulevard",
+            "hours": "9:00 AM - 11:00 PM",
+            "rating": "144 ratings",
+            "location": "https://maps.app.goo.gl/gjd6jpcdt3RUgBkL8",
+            "phone": "0522337033",
+            "menu": "Crepes, mechoui, dishes, fries, sautéed vegetables, burgers, sandwiches, pasta, pizzas, desserts"
+        },
+        {
+            "name": "Art Pizza Italienne",
+            "address": "Les FAR Street",
+            "hours": "1:30 PM - 11:30 PM",
+            "rating": "4.3",
+            "location": "https://maps.app.goo.gl/GvXxS7vNL3rQErb48",
+            "phone": "0668506648",
+            "menu": "Pizza"
+        },
+        {
+            "name": "Danata Ice",
+            "address": "El Mountazah",
+            "hours": "6:00 AM - 1:00 AM",
+            "rating": "4",
+            "location": "https://maps.app.goo.gl/rSkgZrccqnDZYKrV9",
+            "phone": "0522516210",
+            "menu": "Desserts, fries, pasta, sandwiches, juice, tanjia, tagine, sandwiches"
+        },
+        {
+            "name": "ESPACESAAD",
+            "address": "Ibrahim Roudani Street",
+            "hours": "7:00 AM - 12:00 AM",
+            "rating": "4",
+            "location": "https://maps.app.goo.gl/1vtEcwf9CXpjZS8c9",
+            "phone": "0808583385",
+            "menu": "Cocktails, crepes, juice, desserts"
+        },
+        {
+            "name": "Snack Escale",
+            "address": "Abderahim Bouabid Street",
+            "hours": "12:00 PM - 2:00 AM",
+            "rating": "4.2",
+            "location": "https://maps.app.goo.gl/3Jt3KmJqZmZK3Xnq9",
+            "phone": "0671603944",
+            "menu": "Tacos, pizzas, burgers, salads, pasticcio, shawarma, juice, fries, sandwiches"
+        },
+        {
+            "name": "La Ruche du Jardin",
+            "address": "Layali District",
+            "hours": "7:00 AM - 11:00 PM",
+            "rating": "4.3",
+            "location": "https://maps.app.goo.gl/1ZjtE4rAVAoqfKny6",
+            "phone": "0522336769",
+            "menu": "Omelettes, breakfast, mojito, cocktail, coffee, tea, tacos, sandwich, pizza"
+        },
+        {
+            "name": "Hikayat Zaman",
+            "address": "Idriss Lherizi Street",
+            "hours": "11:00 AM - 11:00 PM",
+            "rating": "4",
+            "location": "https://maps.app.goo.gl/AELZUKWmNYe89edTA",
+            "phone": "0708520377",
+            "menu": "Omelettes, breakfast, mojito, cocktail, coffee, tea, tacos, sandwich, pizza"
+        },
+        {
+            "name": "Camilia Restaurant",
+            "address": "Omar Bnou Khattab Street",
+            "hours": "11:00 AM - 12:00 AM",
+            "rating": "3.9",
+            "location": "https://maps.app.goo.gl/9MCzgsBEc7FJjKXj7",
+            "phone": "0707034202",
+            "menu": "Mechoui, tagine, tacos, sandwich, pizza"
+        }
+      ],
+
+        "universities": [
+            {
+                "name": "ENSA: National School of Applied Sciences - Berrechid",
+                "address": "Les Facultés Street, B.P. 218",
+                "phone": "05223-24758",
+                "hours": {
+                    "monday_to_friday": "8:30 AM - 6:00 PM",
+                    "saturday": "8:30 AM - 5:00 PM",
+                    "sunday": "Closed"
+                },
+                "description": "Engineering university, offering a state engineer diploma after 5 years in fields like aeronautics, computer science, mechatronics, energy, or big data.",
+                "location": "https://maps.app.goo.gl/FZVQ4X69R1ifnhFY8"
+            },
+            {
+                "name": "ESEF Berrechid",
+                "address": "Les Facultés Street, 7C57+JX4P7",
+                "phone": "Unavailable",
+                "hours": {
+                    "monday_to_friday": "8:30 AM - 6:00 PM",
+                    "saturday": "8:30 AM - 5:00 PM",
+                    "sunday": "Closed"
+                },
+                "description": "Teacher training school, offering 3 years of studies.",
+                "location": "https://maps.app.goo.gl/6ziJXAF6WjtdjQMSA"
+            },
+            {
+                "name": "ISTA: Higher Institute of Applied Technology",
+                "address": "Moulay Ismail Street, 797V+4FFR318",
+                "phone": "Unavailable",
+                "hours": {
+                    "monday_to_friday": "8:30 AM - 6:00 PM",
+                    "saturday": "9:30 AM - 12:30 PM",
+                    "sunday": "Closed"
+                },
+                "description": "Vocational training institute.",
+                "location": "https://maps.app.goo.gl/5da7AGwyRxoQqPDe8"
+            },
+            {
+                "name": "ESB: Higher School of Business",
+                "address": "46 Mohamed 5 Street",
+                "phone": "0522516018",
+                "hours": {
+                    "monday_to_friday": "8:30 AM - 9:00 PM",
+                    "saturday": "8:30 AM - 9:00 PM",
+                    "sunday": "Closed"
+                },
+                "description": "Business administration school.",
+                "location": "https://maps.app.goo.gl/oWGnn4qNUu4rgGbN8"
+            }
+        ],
+        "schools": [
+            {
+                "name": "Lycée Qualifiant Ouled Hariz",
+                "address": "Hassan Tani Street, Berrechid",
+                "map": "https://www.google.com/maps?q=33.2670,-7.5780",
+                "type": "Public",
+                "level": "High school"
+            },
+            {
+                "name": "Lycée Qualifiant Mohammed Mansour",
+                "address": "Nasser Allah Street, Berrechid",
+                "map": "https://www.google.com/maps?q=33.2680,-7.5790",
+                "type": "Public",
+                "level": "High school"
+            },
+            {
+                "name": "Lycée Qualifiant Général El-Kettani",
+                "address": "Mohamed 5 Street, Berrechid",
+                "map": "https://www.google.com/maps?q=33.2690,-7.5800",
+                "type": "Public",
+                "level": "High school"
+            },
+            {
+                "name": "Lycée Technique Imam Malik",
+                "address": "Al-Zarqatoni Street, Berrechid",
+                "map": "https://www.google.com/maps?q=33.2700,-7.5810",
+                "type": "Public",
+                "level": "High school"
+            },
+            {
+                "name": "Lycée Qualifiant Ibn Rushd",
+                "address": "Taha Hussein Street, Berrechid",
+                "map": "https://www.google.com/maps?q=33.2710,-7.5820",
+                "type": "Public",
+                "level": "High school"
+            },
+            {
+                "name": "Lycée Qualifiant Omar Al-Khayyam",
+                "address": "As-Salam Street, Hay Al-Wifaq, Berrechid",
+                "map": "https://www.google.com/maps?q=33.2720,-7.5830",
+                "type": "Public",
+                "level": "High school"
+            },
+            {
+                "name": "Collège Zareqtoni",
+                "address": "Al-Zarqatoni District, Berrechid",
+                "map": "https://www.google.com/maps?q=33.2730,-7.5840",
+                "type": "Public",
+                "level": "Middle school"
+            },
+            {
+                "name": "Collège Martyr Maki",
+                "address": "Martyr Maki District, Berrechid",
+                "map": "https://www.google.com/maps?q=33.2740,-7.5850",
+                "type": "Public",
+                "level": "Middle school"
+            },
+            {
+                "name": "Collège Zaynab Al-Nafzawiya",
+                "address": "Zaynab Al-Nafzawiya District, Berrechid",
+                "map": "https://www.google.com/maps?q=33.2750,-7.5860",
+                "type": "Public",
+                "level": "Middle school"
+            },
+            {
+                "name": "Collège Ibn Khaldoun",
+                "address": "Ibn Khaldoun Street, Berrechid",
+                "map": "https://www.google.com/maps?q=33.2760,-7.5870",
+                "type": "Public",
+                "level": "Middle school"
+            },
+            {
+                "name": "Collège Lalla Mariam",
+                "address": "Lalla Mariam District, Berrechid",
+                "map": "https://www.google.com/maps?q=33.2770,-7.5880",
+                "type": "Public",
+                "level": "Middle school"
+            },
+            {
+                "name": "École Mohammed Mansour",
+                "address": "Mohammed Mansour Street, Berrechid",
+                "map": "https://www.google.com/maps?q=33.2780,-7.5890",
+                "type": "Public",
+                "level": "Primary school"
+            },
+            {
+                "name": "École Taha Hussein",
+                "address": "Taha Hussein Street, Berrechid",
+                "map": "https://www.google.com/maps?q=33.2695,-7.5870",
+                "type": "Public",
+                "level": "Primary school"
+            },
+            {
+                "name": "École Salam 1",
+                "address": "As-Salam Street, Hay Al-Wifaq, Berrechid",
+                "map": "https://www.google.com/maps?q=33.2700,-7.5850",
+                "type": "Public",
+                "level": "Primary school"
+            },
+            {
+                "name": "École Salam 2",
+                "address": "As-Salam Street, Berrechid",
+                "map": "https://www.google.com/maps?q=33.2715,-7.5865",
+                "type": "Public",
+                "level": "Primary school"
+            },
+            {
+                "name": "École Aicha Al-Taymouri",
+                "address": "Aicha Al-Taymouri Street, Berrechid",
+                "map": "https://www.google.com/maps?q=33.2725,-7.5875",
+                "type": "Public",
+                "level": "Primary school"
+            },
+            {
+                "name": "École Ibn Al-Haytham",
+                "address": "Ibn Al-Haytham Street, Berrechid",
+                "map": "https://www.google.com/maps?q=33.2735,-7.5885",
+                "type": "Public",
+                "level": "Primary school"
+            },
+            {
+                "name": "École Idriss Al-Harizi",
+                "address": "Idriss Al-Harizi Street, Berrechid",
+                "map": "https://www.google.com/maps?q=33.2745,-7.5895",
+                "type": "Public",
+                "level": "Primary school"
+            },
+            {
+                "name": "École Mustafa Al-Maani",
+                "address": "Mustafa Al-Maani Street, Berrechid",
+                "map": "https://www.google.com/maps?q=33.2755,-7.5905",
+                "type": "Public",
+                "level": "Primary school"
+            },
+            {
+                "name": "École Gaza",
+                "address": "Gaza Street, Berrechid",
+                "map": "https://www.google.com/maps?q=33.2765,-7.5915",
+                "type": "Public",
+                "level": "Primary school"
+            },
+            {
+                "name": "École Tarek Fikri",
+                "address": "Tarek Fikri Street, Berrechid",
+                "map": "https://www.google.com/maps?q=33.2775,-7.5925",
+                "type": "Public",
+                "level": "Primary school"
+            },
+            {
+                "name": "École Abdel Rahim Bouabid 1",
+                "address": "Abdel Rahim Bouabid Street, Berrechid",
+                "map": "https://www.google.com/maps?q=33.2785,-7.5935",
+                "type": "Public",
+                "level": "Primary school"
+            },
+            {
+                "name": "École Abdel Rahim Bouabid 2",
+                "address": "Abdel Rahim Bouabid Street, Berrechid",
+                "map": "https://www.google.com/maps?q=33.2795,-7.5945",
+                "type": "Public",
+                "level": "Primary school"
+            },
+            {
+                "name": "École George School",
+                "address": "Mohamed 5 Street, Berrechid",
+                "map": "https://www.google.com/maps?q=33.2805,-7.5955",
+                "type": "Private",
+                "level": "Primary, Middle school"
+            },
+            {
+                "name": "École Pierre de Coubertin",
+                "address": "Al-Zarqatoni Street, Berrechid",
+                "map": "https://www.google.com/maps?q=33.2815,-7.5965",
+                "type": "Private",
+                "level": "Primary school"
+            },
+            {
+                "name": "École Yasmin",
+                "address": "Al-Yasmin Street, Berrechid",
+                "map": "https://www.google.com/maps?q=33.2825,-7.5975",
+                "type": "Private",
+                "level": "Primary, Middle school"
+            },
+            {
+                "name": "École César",
+                "address": "César Street, Berrechid",
+                "map": "https://www.google.com/maps?q=33.2835,-7.5985",
+                "type": "Private",
+                "level": "Primary, Middle school"
+            },
+            {
+                "name": "École Nebras Al-Ilm",
+                "address": "Nebras Street, Berrechid",
+                "map": "https://www.google.com/maps?q=33.2845,-7.5995",
+                "type": "Private",
+                "level": "Primary, High school"
+            },
+            {
+                "name": "École Al-Manbit",
+                "address": "Al-Manbit Street, Berrechid",
+                "map": "https://www.google.com/maps?q=33.2855,-7.6005",
+                "type": "Private",
+                "level": "Primary, Middle school"
+            },
+            {
+                "name": "École Al-Jisr",
+                "address": "Al-Jisr Street, Berrechid",
+                "map": "https://www.google.com/maps?q=33.2865,-7.6015",
+                "type": "Private",
+                "level": "Primary, Middle school"
+            },
+            {
+                "name": "École Aijal Al-Madina",
+                "address": "Aijal Al-Madina Street, Berrechid",
+                "map": "https://www.google.com/maps?q=33.2875,-7.6025",
+                "type": "Private",
+                "level": "Primary, Middle school, High school"
+            },
+            {
+                "name": "École Miranda",
+                "address": "Miranda Street, Berrechid",
+                "map": "https://www.google.com/maps?q=33.2885,-7.6035",
+                "type": "Private",
+                "level": "Primary school"
+            },
+            {
+                "name": "École Al-Amana",
+                "address": "Al-Amana Street, Berrechid",
+                "map": "https://www.google.com/maps?q=33.2895,-7.6045",
+                "type": "Private",
+                "level": "Primary, Middle school"
+            },
+            {
+                "name": "École Al-Muhajir",
+                "address": "Al-Muhajir Street, Berrechid",
+                "map": "https://www.google.com/maps?q=33.2905,-7.6055",
+                "type": "Private",
+                "level": "Primary school"
+            },
+            {
+                "name": "École Al-Habiba",
+                "address": "Al-Habiba Street, Berrechid",
+                "map": "https://www.google.com/maps?q=33.2915,-7.6065",
+                "type": "Private",
+                "level": "Primary, Middle school, High school"
+            }
+         ],
+    
+          "health_institutions": [
+              {
+                  "name": "Berrechid Psychiatric Hospital",
+                  "address": "Industrial District, Berrechid",
+                  "phone": "Not specified",
+                  "hours": "24/7",
+                  "map": "https://www.google.com/maps?q=33.2651,-7.5803"
+              },
+              {
+                  "name": "Ibn Zohr Clinic",
+                  "address": "46 Al Amal Lot, Berrechid",
+                  "phone": "0522536000",
+                  "hours": "8:00 AM - 6:00 PM",
+                  "map": "https://www.google.com/maps?q=33.2702,-7.5908"
+              },
+              {
+                  "name": "Chifa Clinic",
+                  "address": "Marrakech Road, Jeddah Lot No. 7, Berrechid",
+                  "phone": "0522327671",
+                  "hours": "8:00 AM - 8:00 PM",
+                  "map": "https://www.google.com/maps?q=33.2718,-7.5923"
+              },
+              {
+                  "name": "Chaouia Clinic",
+                  "address": "3 Okba Ibnou Nafie Street, Berrechid",
+                  "phone": "0522337800",
+                  "hours": "8:30 AM - 6:00 PM",
+                  "map": "https://www.google.com/maps?q=33.2684,-7.5847"
+              },
+              {
+                  "name": "Er-razi Hospital",
+                  "address": "Derb Jdid Z.I., Berrechid",
+                  "phone": "0522337900",
+                  "hours": "24/7",
+                  "map": "https://www.google.com/maps?q=33.2640,-7.5810"
+              },
+              {
+                  "name": "Berrechid Radiodiagnosis Center",
+                  "address": "36 Tarik Bnou Ziad Street, Berrechid",
+                  "phone": "0522536005",
+                  "hours": "8:30 AM - 6:00 PM",
+                  "map": "https://www.google.com/maps?q=33.2691,-7.5862"
+              }
+          ]
+      }
+      

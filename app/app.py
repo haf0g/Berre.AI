@@ -1,14 +1,22 @@
-#v3 working well
+# v4 with Darija support and improved retrieval
 from dotenv import load_dotenv
 import os
 import json
 from typing import List, Dict, Any
 from dataclasses import dataclass
-from flask import Flask, request, jsonify, render_template,Response
+from flask import Flask, request, jsonify, render_template, Response
 from groq import Groq
 import numpy as np
 from sentence_transformers import SentenceTransformer
 from sklearn.metrics.pairwise import cosine_similarity
+from googletrans import Translator
+from fuzzywuzzy import process
+
+# Load environment variables
+load_dotenv()
+
+# Initialize translator for Darija support
+translator = Translator()
 
 @dataclass
 class BerrechidLocation:
@@ -18,20 +26,25 @@ class BerrechidLocation:
     details: Dict[str, Any]
 
 class BerrechidRAG:
-    def __init__(self, data_path: str = 'knowledge_base.json'):
+    def __init__(self, data_path: str = 'knowledge_base_v2.json'):
         self.model = SentenceTransformer('paraphrase-multilingual-MiniLM-L12-v2')
         self.data = self.load_data(data_path)
         self.embeddings = {}
         self.initialize_embeddings()
 
     def load_data(self, data_path: str) -> List[BerrechidLocation]:
+        # Construct the full path relative to the script's location
+        script_dir = os.path.dirname(os.path.abspath(__file__))
+        full_path = os.path.join(script_dir, data_path)
+        print(f"Loading data from: {full_path}")  # Debugging: Print the full path
+        
         try:
-            with open(data_path, 'r', encoding='utf-8') as f:
+            with open(full_path, 'r', encoding='utf-8') as f:
                 raw_data = json.load(f)
         except FileNotFoundError:
-            raise ValueError(f"File not found: {data_path}")
+            raise ValueError(f"File not found: {full_path}")
         except json.JSONDecodeError:
-            raise ValueError(f"Error decoding JSON in file: {data_path}")
+            raise ValueError(f"Error decoding JSON in file: {full_path}")
 
         locations = []
         for category, items in raw_data.items():
@@ -39,8 +52,8 @@ class BerrechidRAG:
                 locations.append(
                     BerrechidLocation(
                         category=category,
-                        name=item.get('smiya', ''),
-                        address=item.get('adresse', ''),
+                        name=item.get('name', ''),
+                        address=item.get('adress', ''),
                         details=item
                     )
                 )
@@ -54,13 +67,19 @@ class BerrechidRAG:
     def retrieve_relevant_info(self, query: str, k: int = 3) -> List[Dict]:
         query_embedding = self.model.encode(query)
         
+        # Fuzzy matching to handle misspellings
+        location_names = [location.name for location in self.data]
+        matches = process.extract(query, location_names, limit=k)
+        matched_names = [match[0] for match in matches]
+
         similarities = []
         for location in self.data:
-            similarity = cosine_similarity(
-                [query_embedding],
-                [self.embeddings[location.name]]
-            )[0][0]
-            similarities.append((similarity, location))
+            if location.name in matched_names:
+                similarity = cosine_similarity(
+                    [query_embedding],
+                    [self.embeddings[location.name]]
+                )[0][0]
+                similarities.append((similarity, location))
         
         relevant_items = sorted(similarities, key=lambda x: x[0], reverse=True)[:k]
         
@@ -81,9 +100,13 @@ class BerrechidChatbot:
         self.client = groq_client
 
     def generate_response(self, user_input: str) -> str:
-        relevant_info = self.rag.retrieve_relevant_info(user_input)
+        # Translate Darija to Modern Standard Arabic (MSA) or French/English
+        translated_input = self.translate_darija(user_input)
+        
+        # Retrieve relevant information
+        relevant_info = self.rag.retrieve_relevant_info(translated_input)
         context = self._format_context(relevant_info)
-        prompt = self._create_prompt(user_input, context)
+        prompt = self._create_prompt(translated_input, context)
         
         try:
             response = self.client.chat.completions.create(
@@ -93,10 +116,17 @@ class BerrechidChatbot:
                 max_tokens=1000,
                 temperature=0.7
             )
+            return response.choices[0].message.content.strip()
         except Exception as e:
-            raise ValueError(f"Error during Groq API call: {str(e)}")
-        
-        return response.choices[0].message.content.strip()
+            return f"Sorry, I encountered an error: {str(e)}"
+
+    def translate_darija(self, text: str) -> str:
+        try:
+            translation = translator.translate(text, src='ar', dest='ar')
+            return translation.text
+        except Exception as e:
+            print(f"Translation error: {e}")
+            return text  # Fallback to original text if translation fails
 
     def _format_context(self, relevant_info: List[Dict]) -> str:
         context_parts = []
@@ -123,11 +153,10 @@ Provide a natural, helpful response in the same language as the user's question.
 app = Flask(__name__)
 
 # Initialize RAG system and chatbot
-load_dotenv()
 GROQ_API = os.getenv("GROQ_API")
-rag_system = BerrechidRAG(r'C:\Users\hp\Downloads\python-groq-project\app\knowledge_base.json')
+rag_system = BerrechidRAG('knowledge_base_v2.json')
 groq_client = Groq(api_key=GROQ_API)
-berrechid_bot = BerrechidChatbot(rag_system, groq_client)  # Use berrechid_bot instead of chatbot
+berrechid_bot = BerrechidChatbot(rag_system, groq_client)
 
 # Routes
 @app.route("/")
@@ -149,6 +178,7 @@ def features_page():
 @app.route("/contact")
 def contact_page():
     return render_template('contacts.html')
+
 @app.route("/chat", methods=["POST"])
 def chat():
     try:
@@ -160,7 +190,7 @@ def chat():
             app.logger.warning("No input provided")
             return jsonify({"error": "No input provided"}), 400
 
-        response = berrechid_bot.generate_response(user_input)  # Use berrechid_bot instead of chatbot
+        response = berrechid_bot.generate_response(user_input)
         app.logger.info(f"Generated response: {response}")
         return jsonify({"message": response})
 
@@ -169,4 +199,4 @@ def chat():
         return jsonify({"error": str(e)}), 500
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=5000, debug=True)  # Added debug=True for better error messages
+    app.run(host="0.0.0.0", port=5000, debug=True)
