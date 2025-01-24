@@ -35,8 +35,8 @@ To set up the project locally, follow these steps:
 
 1. **Clone the repository**:
     ```bash
-    git clone https://github.com/your-username/berrechid-chatbot.git
-    cd berrechid-chatbot
+    git clone https://github.com/haf0g/Berre.AI.git
+    cd Berre.AI
     ```
 
 2. **Set up a virtual environment**:
@@ -51,7 +51,7 @@ To set up the project locally, follow these steps:
     ```
 
 4. **Set up the Groq API key**:
-    - Create a `.env` file in the root directory and add your Groq API key:
+    - Create a `.env` file in the "app" directory and add your Groq API key:
         ```env
         GROQ_API_KEY=your_groq_api_key_here
         ```
