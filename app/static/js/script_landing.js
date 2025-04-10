@@ -60,9 +60,18 @@ gsap.from(".btn_wrapper", {
   duration: 1,
 });
 // ==== TEAM IMAGE ==== //
-gsap.from(".team_img_wrapper img", {
+/*gsap.from(".team_img_wrapper img", {
   opacity: 0,
   y: 20,
   delay: 3,
   duration: 1,
+});
+*/
+// ==== TEAM Image modified ==== //
+gsap.from(".team_img_wrapper img", {
+  y: 30,
+  opacity: 0,
+  duration: 1.5,
+  ease: "elastic.out(1, 0.3)",
+  delay: 0.4
 });
